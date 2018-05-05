@@ -5,7 +5,11 @@ source/CMakeFiles/tests.dir/glew.c.o
  ../external/GL/glew.h
  ../external/GL/glxew.h
  ../external/GL/wglew.h
- /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/glew.c
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/glew.c
 source/CMakeFiles/tests.dir/tests.cpp.o
- ../external/catch-1.1/catch.hpp
- /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/tests.cpp
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/catch.hpp
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/tests.cpp
+source/CMakeFiles/tests.dir/vec2.cpp.o
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/vec2.cpp

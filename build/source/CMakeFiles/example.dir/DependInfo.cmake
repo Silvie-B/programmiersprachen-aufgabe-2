@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/glew.c" "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/source/CMakeFiles/example.dir/glew.c.o"
+  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/glew.c" "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source/CMakeFiles/example.dir/glew.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
@@ -22,8 +22,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../external/catch-1.1"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/example.cpp" "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/source/CMakeFiles/example.dir/example.cpp.o"
-  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/window.cpp" "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/source/CMakeFiles/example.dir/window.cpp.o"
+  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/example.cpp" "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source/CMakeFiles/example.dir/example.cpp.o"
+  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/vec2.cpp" "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source/CMakeFiles/example.dir/vec2.cpp.o"
+  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.cpp" "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source/CMakeFiles/example.dir/window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -42,8 +43,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/CMakeFiles/nanovg.dir/DependInfo.cmake"
+  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/external/glfw-3.2.1/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles/nanovg.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

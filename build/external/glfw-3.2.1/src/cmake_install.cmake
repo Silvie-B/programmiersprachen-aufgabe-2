@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src
+# Install script for directory: /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

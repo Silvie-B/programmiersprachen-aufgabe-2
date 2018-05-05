@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2
+CMAKE_SOURCE_DIR = /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build
+CMAKE_BINARY_DIR = /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/CMakeFiles /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/source/CMakeFiles/progress.marks
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/CMakeFiles 0
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source/CMakeFiles/progress.marks
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/clean
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/CMakeFiles/tests.dir/rule:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/rule
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/tests.dir/rule
 .PHONY : source/CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ tests: source/CMakeFiles/tests.dir/rule
 
 # fast build rule for target.
 tests/fast:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
 # Convenience name for target.
 source/CMakeFiles/example.dir/rule:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/example.dir/rule
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/example.dir/rule
 .PHONY : source/CMakeFiles/example.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ example: source/CMakeFiles/example.dir/rule
 
 # fast build rule for target.
 example/fast:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
 .PHONY : example/fast
 
 example.o: example.cpp.o
@@ -146,7 +146,7 @@ example.o: example.cpp.o
 
 # target to build an object file
 example.cpp.o:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.o
 .PHONY : example.cpp.o
 
 example.i: example.cpp.i
@@ -155,7 +155,7 @@ example.i: example.cpp.i
 
 # target to preprocess a source file
 example.cpp.i:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.i
 .PHONY : example.cpp.i
 
 example.s: example.cpp.s
@@ -164,7 +164,7 @@ example.s: example.cpp.s
 
 # target to generate assembly for a file
 example.cpp.s:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/example.cpp.s
 .PHONY : example.cpp.s
 
 glew.o: glew.c.o
@@ -173,8 +173,8 @@ glew.o: glew.c.o
 
 # target to build an object file
 glew.c.o:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.o
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.o
 .PHONY : glew.c.o
 
 glew.i: glew.c.i
@@ -183,8 +183,8 @@ glew.i: glew.c.i
 
 # target to preprocess a source file
 glew.c.i:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.i
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.i
 .PHONY : glew.c.i
 
 glew.s: glew.c.s
@@ -193,8 +193,8 @@ glew.s: glew.c.s
 
 # target to generate assembly for a file
 glew.c.s:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.s
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.s
 .PHONY : glew.c.s
 
 tests.o: tests.cpp.o
@@ -203,7 +203,7 @@ tests.o: tests.cpp.o
 
 # target to build an object file
 tests.cpp.o:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.o
 .PHONY : tests.cpp.o
 
 tests.i: tests.cpp.i
@@ -212,7 +212,7 @@ tests.i: tests.cpp.i
 
 # target to preprocess a source file
 tests.cpp.i:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.i
 .PHONY : tests.cpp.i
 
 tests.s: tests.cpp.s
@@ -221,8 +221,38 @@ tests.s: tests.cpp.s
 
 # target to generate assembly for a file
 tests.cpp.s:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.s
 .PHONY : tests.cpp.s
+
+vec2.o: vec2.cpp.o
+
+.PHONY : vec2.o
+
+# target to build an object file
+vec2.cpp.o:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.o
+.PHONY : vec2.cpp.o
+
+vec2.i: vec2.cpp.i
+
+.PHONY : vec2.i
+
+# target to preprocess a source file
+vec2.cpp.i:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.i
+.PHONY : vec2.cpp.i
+
+vec2.s: vec2.cpp.s
+
+.PHONY : vec2.s
+
+# target to generate assembly for a file
+vec2.cpp.s:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.s
+.PHONY : vec2.cpp.s
 
 window.o: window.cpp.o
 
@@ -230,7 +260,7 @@ window.o: window.cpp.o
 
 # target to build an object file
 window.cpp.o:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.o
 .PHONY : window.cpp.o
 
 window.i: window.cpp.i
@@ -239,7 +269,7 @@ window.i: window.cpp.i
 
 # target to preprocess a source file
 window.cpp.i:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.i
 .PHONY : window.cpp.i
 
 window.s: window.cpp.s
@@ -248,7 +278,7 @@ window.s: window.cpp.s
 
 # target to generate assembly for a file
 window.cpp.s:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.s
 .PHONY : window.cpp.s
 
 # Help Target
@@ -270,6 +300,9 @@ help:
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"
+	@echo "... vec2.o"
+	@echo "... vec2.i"
+	@echo "... vec2.s"
 	@echo "... window.o"
 	@echo "... window.i"
 	@echo "... window.s"
@@ -284,6 +317,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

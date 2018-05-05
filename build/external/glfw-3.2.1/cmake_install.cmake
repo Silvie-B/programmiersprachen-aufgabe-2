@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1
+# Install script for directory: /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/build/external/glfw-3.2.1/src/cmake_install.cmake")
+  include("/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/external/glfw-3.2.1/src/cmake_install.cmake")
 
 endif()
 

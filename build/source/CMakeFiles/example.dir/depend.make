@@ -11,6 +11,9 @@ source/CMakeFiles/example.dir/example.cpp.o: ../external/glfw-3.2.1/include/GLFW
 source/CMakeFiles/example.dir/example.cpp.o: ../source/example.cpp
 source/CMakeFiles/example.dir/example.cpp.o: ../source/window.hpp
 
+source/CMakeFiles/example.dir/vec2.cpp.o: ../source/Vec2.hpp
+source/CMakeFiles/example.dir/vec2.cpp.o: ../source/vec2.cpp
+
 source/CMakeFiles/example.dir/window.cpp.o: ../external/GL/glew.h
 source/CMakeFiles/example.dir/window.cpp.o: ../external/GL/glext.h
 source/CMakeFiles/example.dir/window.cpp.o: ../external/glfw-3.2.1/include/GLFW/glfw3.h

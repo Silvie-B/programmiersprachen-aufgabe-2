@@ -1,5 +1,6 @@
 #define CATCH_CONFIG_RUNNER
 #include "catch.hpp"
+#include "Vec2.hpp"
 
 TEST_CASE("testing_operator+=" , "[operator+=]")
 {

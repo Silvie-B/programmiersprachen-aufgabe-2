@@ -24,7 +24,7 @@ stdint.h
 inttypes.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/include/GLFW/glfw3.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/include/GLFW/glfw3.h
 stddef.h
 -
 stdint.h
@@ -64,13 +64,13 @@ GL/glext.h
 GL/glu.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_init.m
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_init.m
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 sys/param.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_joystick.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_joystick.h
 IOKit/IOKitLib.h
 -
 IOKit/IOCFPlugIn.h
@@ -80,9 +80,9 @@ IOKit/hid/IOHIDLib.h
 IOKit/hid/IOHIDKeys.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_joystick.m
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_joystick.m
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 unistd.h
 -
 ctype.h
@@ -98,9 +98,9 @@ CoreFoundation/CoreFoundation.h
 Kernel/IOKit/hidsystem/IOHIDUsageTables.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_monitor.m
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_monitor.m
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 stdlib.h
 -
 limits.h
@@ -114,7 +114,7 @@ CoreVideo/CVDisplayLink.h
 ApplicationServices/ApplicationServices.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_platform.h
 stdint.h
 -
 dlfcn.h
@@ -128,21 +128,21 @@ Carbon/Carbon.h
 ApplicationServices/ApplicationServices.h
 -
 posix_tls.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_tls.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_tls.h
 cocoa_joystick.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_joystick.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_joystick.h
 nsgl_context.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/nsgl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/nsgl_context.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_time.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_time.c
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 mach/mach_time.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_window.m
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_window.m
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 float.h
 -
 string.h
@@ -150,9 +150,9 @@ string.h
 crt_externs.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/context.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/context.c
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 assert.h
 -
 stdio.h
@@ -164,15 +164,15 @@ limits.h
 stdio.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/egl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/egl_context.h
 EGL/eglplatform.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/glx_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/glx_context.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/init.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/init.c
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 string.h
 -
 stdlib.h
@@ -182,9 +182,9 @@ stdio.h
 stdarg.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/input.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/input.c
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 assert.h
 -
 float.h
@@ -192,27 +192,27 @@ float.h
 stdlib.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 glfw_config.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/glfw_config.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/glfw_config.h
 ../include/GLFW/glfw3.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/include/GLFW/glfw3.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/include/GLFW/glfw3.h
 cocoa_platform.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/cocoa_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/cocoa_platform.h
 win32_platform.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/win32_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/win32_platform.h
 x11_platform.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/x11_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/x11_platform.h
 wl_platform.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/wl_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/wl_platform.h
 mir_platform.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/mir_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/mir_platform.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/linux_joystick.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/linux_joystick.h
 regex.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/mir_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/mir_platform.h
 sys/queue.h
 -
 pthread.h
@@ -222,19 +222,19 @@ dlfcn.h
 mir_toolkit/mir_client_library.h
 -
 posix_tls.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_tls.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_tls.h
 posix_time.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_time.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_time.h
 linux_joystick.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/linux_joystick.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/linux_joystick.h
 xkb_unicode.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/xkb_unicode.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/xkb_unicode.h
 egl_context.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/egl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/egl_context.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/monitor.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/monitor.c
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 assert.h
 -
 math.h
@@ -248,27 +248,27 @@ stdlib.h
 limits.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/nsgl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/nsgl_context.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/nsgl_context.m
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/nsgl_context.m
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_time.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_time.h
 stdint.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_tls.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_tls.c
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_tls.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_tls.h
 pthread.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/vulkan.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/vulkan.c
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 assert.h
 -
 string.h
@@ -276,11 +276,11 @@ string.h
 stdlib.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/wgl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/wgl_context.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/win32_joystick.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/win32_joystick.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/win32_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/win32_platform.h
 wctype.h
 -
 windows.h
@@ -296,15 +296,15 @@ dbt.h
 malloc.h
 -
 win32_joystick.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/win32_joystick.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/win32_joystick.h
 wgl_context.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/wgl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/wgl_context.h
 egl_context.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/egl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/egl_context.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/window.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/window.c
 internal.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/internal.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/internal.h
 assert.h
 -
 string.h
@@ -314,7 +314,7 @@ stdlib.h
 float.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/wl_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/wl_platform.h
 wayland-client.h
 -
 xkbcommon/xkbcommon.h
@@ -322,21 +322,21 @@ xkbcommon/xkbcommon.h
 dlfcn.h
 -
 posix_tls.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_tls.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_tls.h
 posix_time.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_time.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_time.h
 linux_joystick.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/linux_joystick.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/linux_joystick.h
 xkb_unicode.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/xkb_unicode.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/xkb_unicode.h
 egl_context.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/egl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/egl_context.h
 wayland-relative-pointer-unstable-v1-client-protocol.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/wayland-relative-pointer-unstable-v1-client-protocol.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/wayland-relative-pointer-unstable-v1-client-protocol.h
 wayland-pointer-constraints-unstable-v1-client-protocol.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/wayland-pointer-constraints-unstable-v1-client-protocol.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/wayland-pointer-constraints-unstable-v1-client-protocol.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/x11_platform.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/x11_platform.h
 unistd.h
 -
 signal.h
@@ -362,19 +362,19 @@ X11/extensions/Xinerama.h
 X11/extensions/xf86vmode.h
 -
 posix_tls.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_tls.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_tls.h
 posix_time.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/posix_time.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/posix_time.h
 linux_joystick.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/linux_joystick.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/linux_joystick.h
 xkb_unicode.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/xkb_unicode.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/xkb_unicode.h
 glx_context.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/glx_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/glx_context.h
 egl_context.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/egl_context.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/egl_context.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/glfw-3.2.1/src/xkb_unicode.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/glfw-3.2.1/src/xkb_unicode.h
 
 external/glfw-3.2.1/src/glfw_config.h
 

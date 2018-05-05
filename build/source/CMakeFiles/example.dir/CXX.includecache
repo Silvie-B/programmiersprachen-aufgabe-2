@@ -92,9 +92,11 @@ math.h
 nanovg.h
 ../external/nanovg/src/nanovg.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/example.cpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/example.cpp
 window.hpp
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/window.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
 GLFW/glfw3.h
 -
 utility
@@ -102,7 +104,11 @@ utility
 cmath
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/window.cpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/vec2.cpp
+Vec2.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.cpp
 cstdio
 -
 GL/glew.h
@@ -110,11 +116,11 @@ GL/glew.h
 GLFW/glfw3.h
 -
 nanovg.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/nanovg.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/nanovg.h
 nanovg_gl.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/nanovg_gl.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/nanovg_gl.h
 window.hpp
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/window.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
 utility
 -
 cstring
@@ -126,7 +132,7 @@ cassert
 exception
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/window.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
 utility
 -
 array

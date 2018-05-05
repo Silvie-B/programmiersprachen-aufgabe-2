@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/fontstash.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/fontstash.h
 ft2build.h
 -
 math.h
 -
 stb_truetype.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/stb_truetype.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/stb_truetype.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.c
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/nanovg.c
 stdlib.h
 -
 stdio.h
@@ -24,17 +24,17 @@ math.h
 memory.h
 -
 nanovg.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/nanovg.h
 fontstash.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/fontstash.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/fontstash.h
 stb_image.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/stb_image.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/stb_image.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/nanovg.h
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/stb_image.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/stb_image.h
 stb_image.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/stb_image.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/stb_image.h
 stdio.h
 -
 stdarg.h
@@ -60,13 +60,13 @@ intrin.h
 arm_neon.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/stb_truetype.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/stb_truetype.h
 stb_truetype.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/stb_truetype.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/external/nanovg/src/stb_truetype.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/external/nanovg/src/stb_truetype.h
 math.h
 -
 math.h

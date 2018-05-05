@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../external/catch-1.1/catch.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/catch.hpp
 sstream
 -
 stdexcept
@@ -67,6 +69,8 @@ stdlib.h
 -
 string
 -
+vector
+-
 string
 -
 cmath
@@ -95,6 +99,12 @@ vector
 -
 streambuf
 -
+streambuf
+-
+ostream
+-
+fstream
+-
 memory
 -
 vector
@@ -111,9 +121,9 @@ vector
 -
 sstream
 -
-map
--
 algorithm
+-
+map
 -
 stdexcept
 -
@@ -145,6 +155,8 @@ string
 -
 assert.h
 -
+vector
+-
 signal.h
 -
 set
@@ -170,10 +182,8 @@ algorithm
 map
 -
 Foundation/Foundation.h
-../external/catch-1.1/Foundation/Foundation.h
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Foundation/Foundation.h
 ostream
--
-streambuf
 -
 stdexcept
 -
@@ -223,10 +233,18 @@ string
 -
 vector
 -
+iomanip
+-
 assert.h
 -
 
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source/tests.cpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/tests.cpp
 catch.hpp
--
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/catch.hpp
+Vec2.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/vec2.cpp
+Vec2.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
 

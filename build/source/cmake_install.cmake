@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabenblatt-2/source
+# Install script for directory: /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
