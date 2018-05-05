@@ -2,7 +2,7 @@
 #include "catch.hpp"
 #include "Vec2.hpp"
 
-TEST_CASE("testing_operator+=" , "[operator+=]")
+TEST_CASE("testing_operator+=" , "[operator+=]") //Test des =+ Operators weitere hinzufügen
 {
     Vec2 v1;
     Vec2 v2{2.0f, 3.0f};
