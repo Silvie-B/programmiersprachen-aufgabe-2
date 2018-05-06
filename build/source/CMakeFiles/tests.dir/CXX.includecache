@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.cpp
+Vec2.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
 
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/catch.hpp
@@ -241,10 +245,6 @@ assert.h
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/tests.cpp
 catch.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/catch.hpp
-Vec2.hpp
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
-
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/vec2.cpp
 Vec2.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
 

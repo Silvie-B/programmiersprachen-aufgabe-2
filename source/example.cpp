@@ -2,7 +2,8 @@
 #include <GLFW/glfw3.h>
 #include <utility>
 #include <cmath>
-
+#include "rectangle.hpp"
+#include "circle.hpp"
 
 int main(int argc, char* argv[])
 {

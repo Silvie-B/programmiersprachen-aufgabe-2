@@ -83,31 +83,31 @@ source/CMakeFiles/tests.dir/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests.cpp.s"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/tests.cpp -o CMakeFiles/tests.dir/tests.cpp.s
 
-source/CMakeFiles/tests.dir/vec2.cpp.o: source/CMakeFiles/tests.dir/flags.make
-source/CMakeFiles/tests.dir/vec2.cpp.o: ../source/vec2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/tests.dir/vec2.cpp.o"
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/vec2.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/vec2.cpp
+source/CMakeFiles/tests.dir/Vec2.cpp.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/Vec2.cpp.o: ../source/Vec2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/tests.dir/Vec2.cpp.o"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/Vec2.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.cpp
 
-source/CMakeFiles/tests.dir/vec2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/vec2.cpp.i"
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/vec2.cpp > CMakeFiles/tests.dir/vec2.cpp.i
+source/CMakeFiles/tests.dir/Vec2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/Vec2.cpp.i"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.cpp > CMakeFiles/tests.dir/Vec2.cpp.i
 
-source/CMakeFiles/tests.dir/vec2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/vec2.cpp.s"
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/vec2.cpp -o CMakeFiles/tests.dir/vec2.cpp.s
+source/CMakeFiles/tests.dir/Vec2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/Vec2.cpp.s"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.cpp -o CMakeFiles/tests.dir/Vec2.cpp.s
 
 # Object files for target tests
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/glew.c.o" \
 "CMakeFiles/tests.dir/tests.cpp.o" \
-"CMakeFiles/tests.dir/vec2.cpp.o"
+"CMakeFiles/tests.dir/Vec2.cpp.o"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
 
 source/tests: source/CMakeFiles/tests.dir/glew.c.o
 source/tests: source/CMakeFiles/tests.dir/tests.cpp.o
-source/tests: source/CMakeFiles/tests.dir/vec2.cpp.o
+source/tests: source/CMakeFiles/tests.dir/Vec2.cpp.o
 source/tests: source/CMakeFiles/tests.dir/build.make
 source/tests: external/glfw-3.2.1/src/libglfw3.a
 source/tests: libnanovg.a

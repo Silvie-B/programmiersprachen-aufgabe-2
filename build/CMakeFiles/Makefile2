@@ -193,8 +193,8 @@ source/preinstall:
 # Target rules for target source/CMakeFiles/tests.dir
 
 # All Build rule for target.
-source/CMakeFiles/tests.dir/all: external/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 source/CMakeFiles/tests.dir/all: CMakeFiles/nanovg.dir/all
+source/CMakeFiles/tests.dir/all: external/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/depend
 	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=22,23,24,25 "Built target tests"
@@ -231,8 +231,8 @@ clean: source/CMakeFiles/tests.dir/clean
 # Target rules for target source/CMakeFiles/example.dir
 
 # All Build rule for target.
-source/CMakeFiles/example.dir/all: external/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 source/CMakeFiles/example.dir/all: CMakeFiles/nanovg.dir/all
+source/CMakeFiles/example.dir/all: external/glfw-3.2.1/src/CMakeFiles/glfw.dir/all
 	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/depend
 	$(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target example"

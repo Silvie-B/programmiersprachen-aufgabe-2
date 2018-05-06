@@ -140,6 +140,36 @@ example/fast:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/build
 .PHONY : example/fast
 
+Vec2.o: Vec2.cpp.o
+
+.PHONY : Vec2.o
+
+# target to build an object file
+Vec2.cpp.o:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/Vec2.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/Vec2.cpp.o
+.PHONY : Vec2.cpp.o
+
+Vec2.i: Vec2.cpp.i
+
+.PHONY : Vec2.i
+
+# target to preprocess a source file
+Vec2.cpp.i:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/Vec2.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/Vec2.cpp.i
+.PHONY : Vec2.cpp.i
+
+Vec2.s: Vec2.cpp.s
+
+.PHONY : Vec2.s
+
+# target to generate assembly for a file
+Vec2.cpp.s:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/Vec2.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/Vec2.cpp.s
+.PHONY : Vec2.cpp.s
+
 example.o: example.cpp.o
 
 .PHONY : example.o
@@ -224,36 +254,6 @@ tests.cpp.s:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/tests.cpp.s
 .PHONY : tests.cpp.s
 
-vec2.o: vec2.cpp.o
-
-.PHONY : vec2.o
-
-# target to build an object file
-vec2.cpp.o:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.o
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.o
-.PHONY : vec2.cpp.o
-
-vec2.i: vec2.cpp.i
-
-.PHONY : vec2.i
-
-# target to preprocess a source file
-vec2.cpp.i:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.i
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.i
-.PHONY : vec2.cpp.i
-
-vec2.s: vec2.cpp.s
-
-.PHONY : vec2.s
-
-# target to generate assembly for a file
-vec2.cpp.s:
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/vec2.cpp.s
-	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/vec2.cpp.s
-.PHONY : vec2.cpp.s
-
 window.o: window.cpp.o
 
 .PHONY : window.o
@@ -291,6 +291,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... tests"
 	@echo "... example"
+	@echo "... Vec2.o"
+	@echo "... Vec2.i"
+	@echo "... Vec2.s"
 	@echo "... example.o"
 	@echo "... example.i"
 	@echo "... example.s"
@@ -300,9 +303,6 @@ help:
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"
-	@echo "... vec2.o"
-	@echo "... vec2.i"
-	@echo "... vec2.s"
 	@echo "... window.o"
 	@echo "... window.i"
 	@echo "... window.s"
