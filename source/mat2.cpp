@@ -1,5 +1,5 @@
 #include "mat2.hpp"
-
+#include "Vec2.hpp"
 
 Mat2::Mat2():
 x1(1.0),
@@ -33,3 +33,27 @@ Mat2 operator*(Mat2 const& m1, Mat2 const& m2)
     return *m3;
 }
 
+Vec2 operator*(Mat2 const& m, Vec2 const& v)
+{
+    Vec2 *v2 = new Vec2();
+    
+    v2->x = m.x1 * v.x + m.x2 * v.y;
+    v2->y = m.y1 * v.x + m.y2 * v.y;
+    return *v2;
+    
+}
+/*
+ Vec2 operator*(Vec2 const& v, Mat2 const& m)
+ {
+ 
+ }
+ 
+ Mat2 inverse(Mat2 const& m)
+ {
+ 
+ }
+ 
+ Mat2 transponse(Mat2 const&)
+ {
+ 
+ }*/
