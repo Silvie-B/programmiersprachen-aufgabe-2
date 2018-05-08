@@ -7,7 +7,11 @@ y(0.0) {}
 Vec2::Vec2(float x, float y):
 x(x),
 y(y) {}
-//Destruktor nicht unbedingt nötig, keine Aufräumarbeiten zu erledingen da nichts per new erschaffen wird.
+
+Vec2::~Vec2()
+{
+    
+}
 
 Vec2& Vec2::operator+=(Vec2 const& v)
 {
@@ -42,31 +46,44 @@ Vec2& Vec2::operator/=(float s)
     }
     return *this;
 }
-/*
+
 Vec2 operator+(Vec2 const& u, Vec2 const& v)
 {
-    float ergebnisx = u.x + v.x;
-    float ergebnisy = u.y + v.y;
-    
+    Vec2 *a = new Vec2();
+    a->x += u.x + v.x;
+    a->y += u.y + v.y;
+    return *a;
+   
 }
 
 Vec2 operator-(Vec2 const& u, Vec2 const& v)
 {
-    
+    Vec2 *a = new Vec2();
+    a->x -= u.x + v.x;
+    a->y -= u.y + v.y;
+    return *a;
 }
 
 Vec2 operator*(Vec2 const& v, float s)
 {
-    
+    Vec2 *a = new Vec2();
+    a->x *= s;
+    a->y *= s;
+    return *a;
 }
 
 Vec2 operator/(Vec2 const& v, float s)
 {
-    
+    Vec2 *a = new Vec2();
+    a->x /= s;
+    a->y /= s;
+    return *a;
 }
-Vec2 operator*(float a, Vec2 const& v)
 
+Vec2 operator*(float s, Vec2 const& v)
 {
-    
+    Vec2 *a = new Vec2();
+    s *= v.x;
+    s *= v.y;
+    return *a;
 }
-*/
