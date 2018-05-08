@@ -1,6 +1,7 @@
 #define CATCH_CONFIG_RUNNER
 #include "catch.hpp"
 #include "Vec2.hpp"
+#include "mat2.hpp"
 
 // Aufgabe 2.3
 TEST_CASE("testing_operator+=" , "[operator+=]")
@@ -65,6 +66,40 @@ TEST_CASE("testing_operator/=" , "[operator/=]")
     v2 /= s;
     REQUIRE(v2.x == 4.0f);
     REQUIRE(v2.y == 4.0f);
+}
+// Aufgabe 2.4
+
+
+//Aufgabe 2.5
+
+TEST_CASE("testing_Mat2_operator*=" , "[operator=*]")
+{
+    Mat2 m1(0.0f, 0.0f, 0.0f, 0.0f);
+    Mat2 m2(2.0f, 2.0f, 3.0f, 5.0f);
+    Mat2 m3(1.5f, 1.0f, 0.0, -3.0f);
+    
+    m1 *= m2;
+    REQUIRE(m1.x1 == 0.0f);
+    REQUIRE(m1.x2 == 0.0f);
+    REQUIRE(m1.y1 == 0.0f);
+    REQUIRE(m1.y2 == 0.0f);
+    
+    m3 *= m2;
+    REQUIRE(m3.x1 == 6.0f);
+    REQUIRE(m3.x2 == 8.0f);
+    REQUIRE(m3.y1 == -9.0f);
+    REQUIRE(m3.y2 == -15.0f);
+}
+
+TEST_CASE("testing_operator*" , "[operator+]")
+{
+    Mat2 t1(0.0f, 0.0f, 0.0f, 0.0f);
+    Mat2 t2(3.0f, 4.0f, -3.0f, -5.0f);
+    Mat2 t3(-1.0f, 3.0f, 1.f, -3.0f);
+    
+    
+    
+
 }
 
 
