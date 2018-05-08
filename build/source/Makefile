@@ -227,6 +227,36 @@ glew.c.s:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.s
 .PHONY : glew.c.s
 
+mat2.o: mat2.cpp.o
+
+.PHONY : mat2.o
+
+# target to build an object file
+mat2.cpp.o:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.o
+.PHONY : mat2.cpp.o
+
+mat2.i: mat2.cpp.i
+
+.PHONY : mat2.i
+
+# target to preprocess a source file
+mat2.cpp.i:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.i
+.PHONY : mat2.cpp.i
+
+mat2.s: mat2.cpp.s
+
+.PHONY : mat2.s
+
+# target to generate assembly for a file
+mat2.cpp.s:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/mat2.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/mat2.cpp.s
+.PHONY : mat2.cpp.s
+
 tests.o: tests.cpp.o
 
 .PHONY : tests.o
@@ -300,6 +330,9 @@ help:
 	@echo "... glew.o"
 	@echo "... glew.i"
 	@echo "... glew.s"
+	@echo "... mat2.o"
+	@echo "... mat2.i"
+	@echo "... mat2.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"

@@ -9,7 +9,12 @@ source/CMakeFiles/tests.dir/glew.c.o: ../source/glew.c
 source/CMakeFiles/tests.dir/Vec2.cpp.o: ../source/Vec2.cpp
 source/CMakeFiles/tests.dir/Vec2.cpp.o: ../source/Vec2.hpp
 
+source/CMakeFiles/tests.dir/mat2.cpp.o: ../source/Vec2.hpp
+source/CMakeFiles/tests.dir/mat2.cpp.o: ../source/mat2.cpp
+source/CMakeFiles/tests.dir/mat2.cpp.o: ../source/mat2.hpp
+
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/Vec2.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/catch.hpp
+source/CMakeFiles/tests.dir/tests.cpp.o: ../source/mat2.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/tests.cpp
 

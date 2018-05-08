@@ -9,7 +9,12 @@ source/CMakeFiles/tests.dir/glew.c.o
 source/CMakeFiles/tests.dir/Vec2.cpp.o
  /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.cpp
  /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+source/CMakeFiles/tests.dir/mat2.cpp.o
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.cpp
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o
  /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
  /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/catch.hpp
+ /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.hpp
  /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/tests.cpp
