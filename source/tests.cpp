@@ -67,8 +67,33 @@ TEST_CASE("testing_operator/=" , "[operator/=]")
     REQUIRE(v2.x == 4.0f);
     REQUIRE(v2.y == 4.0f);
 }
+
 // Aufgabe 2.4
 
+TEST_CASE("testing_operator+" , "[operator+]")
+{
+    
+}
+
+TEST_CASE("testing_operator-" , "[operator-]")
+{
+    
+}
+
+TEST_CASE("testing_operator*" , "[operator*]")
+{
+    
+}
+
+TEST_CASE("testing_operator/" , "[operator/]")
+{
+    
+}
+
+TEST_CASE("testing_opertor*" , "[operator*]")
+{
+    
+}
 
 //Aufgabe 2.5
 
@@ -96,9 +121,23 @@ TEST_CASE("testing_operator*" , "[operator+]")
     Mat2 t1(0.0f, 0.0f, 0.0f, 0.0f);
     Mat2 t2(3.0f, 4.0f, -3.0f, -5.0f);
     Mat2 t3(-1.0f, 3.0f, 1.f, -3.0f);
+    // ...
+}
+
+//Aufgabe 2.6
+
+TEST_CASE("testing_operator*" , "[opertor*]")
+{
     
+}
+
+TEST_CASE("testong_opertor*" , "[opertor*]")
+{
     
-    
+}
+
+TEST_CASE("testing_inverse" , "[inverse]")
+{
 
 }
 

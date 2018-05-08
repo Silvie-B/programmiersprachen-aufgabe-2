@@ -65,11 +65,23 @@ float det(Mat2 m)
  Mat2 inverse(Mat2 const& m)
  {
      Mat2 *invM = new Mat2();
+
+    invM->x1 = m.y2;
+    invM->x2 = m.x2 * -1;
+    invM->y1 = m.y1 * -1;
+    invM->y2 = m.x1;
+    
+    float a = 1/(invM->x1 * invM->y2 - invM->x2 * invM->y1);
      
-     invM->y1 = m.x2;
-     invM->x2 = m.y1;
-     return *invM;
- }
+    invM->x1 *= a;
+    invM->x2 *= a;
+    invM->y1 *= a;
+    invM->y2 *= a;
+     
+    return *invM;
+     }
+
+
  
  Mat2 transponse(Mat2 const& m)
  {
