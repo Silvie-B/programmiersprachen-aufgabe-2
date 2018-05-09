@@ -7,7 +7,7 @@
 
 TEST_CASE("testing_constr" , "[Constr]")
 {
-    //Tests für Standard
+    //Tests für Standard und User
     Vec2 v1;
     Vec2 v2;
     Vec2 v3(3.0f, 2.0f);
@@ -92,34 +92,84 @@ TEST_CASE("testing_operator/=" , "[operator/=]")
 }
 
 // Aufgabe 2.4
-/*
+
 TEST_CASE("testing_operator+" , "[operator+]")
 {
+    Vec2 a1;
+    Vec2 a2(2.0f, 3.0f);
+    Vec2 a3(3.5f, -2.0);
     
+    a1 += a2;
+    REQUIRE(a1.x == 2.0f);
+    REQUIRE(a1.y == 3.0f);
+    
+    a2 += a3;
+    REQUIRE(a2.x == 5.5f);
+    REQUIRE(a2.y == 1.0f);
 }
 
 TEST_CASE("testing_operator-" , "[operator-]")
 {
+    Vec2 a1;
+    Vec2 a2(2.0f, 3.0f);
+    Vec2 a3(3.5f, -2.0);
     
+    a1 -= a2;
+    REQUIRE(a1.x == -2.0f);
+    REQUIRE(a1.y == -3.0f);
+    
+    a2 -=a3;
+    REQUIRE(a2.x == -1.5f);
+    REQUIRE(a2.y == 5.0f);
 }
 
-TEST_CASE("testing_operator*" , "[operator*]")
+TEST_CASE("testing_Vecoperator*" , "[Vecoperator*]")
 {
+    Vec2 a1;
+    Vec2 a2(2.0f, -3.0f);
+    float s(5.0f);
     
+    a1 *= s;
+    REQUIRE(a1.x == 0.0f);
+    REQUIRE(a1.y == 0.0f);
+    
+    a2 *= s;
+    REQUIRE(a2.x == 10.0f);
+    REQUIRE(a2.y == -15.0f);
 }
 
 TEST_CASE("testing_operator/" , "[operator/]")
 {
+    Vec2 a1;
+    Vec2 a2(10.0f, 5.0f);
+    float s(2.0f);
     
+    a2 /= s;
+    REQUIRE(a2.x == 5.0f);
+    REQUIRE(a2.y == 2.5f);
+    
+    a1 /= s;
+    REQUIRE(a1.x == 0.0f);
+    REQUIRE(a1.y == 0.0f);
 }
 
 TEST_CASE("testing_opertor*" , "[operator*]")
 {
+    Vec2 a1;
+    Vec2 a2(2.0f, -3.0f);
+    float s(5.0f);
     
+    a1 *= s;
+    REQUIRE(a1.x == 0.0f);
+    REQUIRE(a1.y == 0.0f);
+    
+    a2 *= s;
+    REQUIRE(a2.x == 10.0f);
+    REQUIRE(a2.y == -15.0f);
 }
 
 //Aufgabe 2.5
-*/
+
 TEST_CASE("testing_Mat2_operator*=" , "[operator=*]")
 {
     Mat2 m1(0.0f, 0.0f, 0.0f, 0.0f);
@@ -138,10 +188,24 @@ TEST_CASE("testing_Mat2_operator*=" , "[operator=*]")
     REQUIRE(m3.y1 == -9.0f);
     REQUIRE(m3.y2 == -15.0f);
 }
-/*
-TEST_CASE("testing_operator*" , "[operator+]")
+
+TEST_CASE("testing_Matoperator*" , "[Matoperator*]")
 {
+    Mat2 m1(0.0f, 0.0f, 0.0f, 0.0f);
+    Mat2 m2(2.0f, 2.0f, 3.0f, 5.0f);
+    Mat2 m3(1.5f, 1.0f, 0.0, -3.0f);
     
+    m1 *= m2;
+    REQUIRE(m1.x1 == 0.0f);
+    REQUIRE(m1.x2 == 0.0f);
+    REQUIRE(m1.y1 == 0.0f);
+    REQUIRE(m1.y2 == 0.0f);
+    
+    m3 *= m2;
+    REQUIRE(m3.x1 == 6.0f);
+    REQUIRE(m3.x2 == 8.0f);
+    REQUIRE(m3.y1 == -9.0f);
+    REQUIRE(m3.y2 == -15.0f);
 }
 
 //Aufgabe 2.6
@@ -162,7 +226,7 @@ TEST_CASE("testing_inverse" , "[inverse]")
 }
 
 //Aufgabe 2.8
-
+/*
 TEST_CASE("testing_getMax_" , "[getMax_]")
 {
     REQUIRE(getMax_(5.0f) == 5.0f);
