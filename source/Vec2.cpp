@@ -1,8 +1,8 @@
 #include "Vec2.hpp"
 
 Vec2::Vec2():
-x(0.0),
-y(0.0) {}
+x(0.0f),
+y(0.0f) {}
 
 Vec2::Vec2(float x, float y):
 x(x),
@@ -10,7 +10,6 @@ y(y) {}
 
 Vec2::~Vec2()
 {
-    
 }
 
 Vec2& Vec2::operator+=(Vec2 const& v)
@@ -36,14 +35,9 @@ Vec2& Vec2::operator*=(float s)
 
 Vec2& Vec2::operator/=(float s)
 {
-    if(s == 0){
-        x = 0.0f;
-        y = 0.0f;
-    }
-    else{
         x /= s;
         y /= s;
-    }
+    
     return *this;
 }
 
@@ -67,23 +61,23 @@ Vec2 operator-(Vec2 const& u, Vec2 const& v)
 Vec2 operator*(Vec2 const& v, float s)
 {
     Vec2 *a = new Vec2();
-    a->x *= s;
-    a->y *= s;
+    a->x *= s * v.x;
+    a->y *= s * v.y;
     return *a;
 }
 
 Vec2 operator/(Vec2 const& v, float s)
 {
     Vec2 *a = new Vec2();
-    a->x /= s;
-    a->y /= s;
+    a->x /= s / v.x;
+    a->y /= s / v.x;
     return *a;
 }
 
 Vec2 operator*(float s, Vec2 const& v)
 {
     Vec2 *a = new Vec2();
-    s *= v.x;
-    s *= v.y;
+    a->x *= s * v.x;
+    a->y *= s * v.y;
     return *a;
 }

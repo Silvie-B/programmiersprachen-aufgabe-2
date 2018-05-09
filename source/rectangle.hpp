@@ -1,3 +1,4 @@
+
 #ifndef rectangle_hpp
 #define rectangle_hpp
 #include "Vec2.hpp"
@@ -12,8 +13,9 @@ public:
     
     Rectangle();
     Rectangle(Vec2 max_, Vec2 min_, Color color);
-    float getMax_();
-    float getMin_();
+    Vec2 getMax_();
+    Vec2 getMin_();
+    float circumference(float const& radius);
     void draw(Window window);
     void draw(Window window, Color color);
 };

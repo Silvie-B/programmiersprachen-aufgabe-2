@@ -242,6 +242,26 @@ iomanip
 assert.h
 -
 
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.cpp
+circle.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.hpp
+color.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
+cmath
+-
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.hpp
+window.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
+color.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.cpp
+color.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
+
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.cpp
 mat2.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.hpp
@@ -252,6 +272,22 @@ cmath
 
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.hpp
 
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.cpp
+rectangle.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.hpp
+color.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
+cmath
+-
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.hpp
+Vec2.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
+color.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
+window.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
+
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/tests.cpp
 catch.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/catch.hpp
@@ -259,4 +295,16 @@ Vec2.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
 mat2.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.hpp
+rectangle.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.hpp
+circle.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.hpp
+
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
+utility
+-
+array
+-
+string
+-
 

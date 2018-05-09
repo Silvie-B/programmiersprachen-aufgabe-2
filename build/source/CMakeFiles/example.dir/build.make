@@ -122,13 +122,55 @@ source/CMakeFiles/example.dir/mat2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/mat2.cpp.s"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.cpp -o CMakeFiles/example.dir/mat2.cpp.s
 
+source/CMakeFiles/example.dir/rectangle.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/rectangle.cpp.o: ../source/rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/example.dir/rectangle.cpp.o"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/rectangle.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.cpp
+
+source/CMakeFiles/example.dir/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/rectangle.cpp.i"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.cpp > CMakeFiles/example.dir/rectangle.cpp.i
+
+source/CMakeFiles/example.dir/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/rectangle.cpp.s"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.cpp -o CMakeFiles/example.dir/rectangle.cpp.s
+
+source/CMakeFiles/example.dir/circle.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/circle.cpp.o: ../source/circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/example.dir/circle.cpp.o"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/circle.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.cpp
+
+source/CMakeFiles/example.dir/circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/circle.cpp.i"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.cpp > CMakeFiles/example.dir/circle.cpp.i
+
+source/CMakeFiles/example.dir/circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/circle.cpp.s"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.cpp -o CMakeFiles/example.dir/circle.cpp.s
+
+source/CMakeFiles/example.dir/color.cpp.o: source/CMakeFiles/example.dir/flags.make
+source/CMakeFiles/example.dir/color.cpp.o: ../source/color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/CMakeFiles/example.dir/color.cpp.o"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/color.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.cpp
+
+source/CMakeFiles/example.dir/color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/color.cpp.i"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.cpp > CMakeFiles/example.dir/color.cpp.i
+
+source/CMakeFiles/example.dir/color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/color.cpp.s"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.cpp -o CMakeFiles/example.dir/color.cpp.s
+
 # Object files for target example
 example_OBJECTS = \
 "CMakeFiles/example.dir/window.cpp.o" \
 "CMakeFiles/example.dir/glew.c.o" \
 "CMakeFiles/example.dir/example.cpp.o" \
 "CMakeFiles/example.dir/Vec2.cpp.o" \
-"CMakeFiles/example.dir/mat2.cpp.o"
+"CMakeFiles/example.dir/mat2.cpp.o" \
+"CMakeFiles/example.dir/rectangle.cpp.o" \
+"CMakeFiles/example.dir/circle.cpp.o" \
+"CMakeFiles/example.dir/color.cpp.o"
 
 # External object files for target example
 example_EXTERNAL_OBJECTS =
@@ -138,11 +180,14 @@ source/example: source/CMakeFiles/example.dir/glew.c.o
 source/example: source/CMakeFiles/example.dir/example.cpp.o
 source/example: source/CMakeFiles/example.dir/Vec2.cpp.o
 source/example: source/CMakeFiles/example.dir/mat2.cpp.o
+source/example: source/CMakeFiles/example.dir/rectangle.cpp.o
+source/example: source/CMakeFiles/example.dir/circle.cpp.o
+source/example: source/CMakeFiles/example.dir/color.cpp.o
 source/example: source/CMakeFiles/example.dir/build.make
 source/example: external/glfw-3.2.1/src/libglfw3.a
 source/example: libnanovg.a
 source/example: source/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable example"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
