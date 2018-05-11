@@ -36,7 +36,7 @@ Vec2 Rectangle::getMin_()
     return min_;
 }
 
-float Rectangle::circumference(float a, float b)
+float Rectangle::circumference(float const& a, float const& b)
 {
     float umfang;
     

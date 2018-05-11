@@ -18,7 +18,7 @@ public:
     Rectangle(float a, float b);
     Rectangle(Vec2 max_, Vec2 min_);
     Rectangle(float a, float b, Vec2 max_, Vec2 min_, Color color);
-    float circumference(float a, float b);
+    float circumference(float const& a, float const& b);
     void draw(Window window);
     void draw(Window window, Color color);
     

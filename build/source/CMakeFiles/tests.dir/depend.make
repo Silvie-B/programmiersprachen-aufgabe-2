@@ -29,6 +29,7 @@ source/CMakeFiles/tests.dir/rectangle.cpp.o: ../source/window.hpp
 
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/Vec2.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/catch.hpp
+source/CMakeFiles/tests.dir/tests.cpp.o: ../source/circle.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/color.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/mat2.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/rectangle.hpp

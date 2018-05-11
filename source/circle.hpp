@@ -9,6 +9,7 @@ public:
     float center;
     Color color;
     Circle();
+    Circle(float radius, float center);
     Circle(float radius, float center, Color color);
     float getRadius();
     float getCenter();

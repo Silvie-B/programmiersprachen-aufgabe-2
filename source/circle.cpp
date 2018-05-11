@@ -5,14 +5,19 @@
 #include <cmath>
 
 Circle::Circle():
-radius(0.0),
-center(0.0),
-color(){}
-           
-Circle::Circle(float radius, float center, Color color):
+    radius(0.0),
+    center(0.0),
+    color(){}
+
+Circle::Circle(float radius, float center):
 radius(radius),
-center(center),
-color(color){}
+center(center){}
+
+
+Circle::Circle(float radius, float center, Color color):
+    radius(radius),
+    center(center),
+    color(color){}
 
 float Circle::getRadius()
 {
@@ -28,7 +33,7 @@ float Circle::circumference(float const& radius)
 {
     return radius * M_PI * 2;
 }
-
+/*
 void Circle::draw(Window window)
 {
     
@@ -38,4 +43,4 @@ void Circle::draw(Window window, Color color)
 {
     
 }
-
+*/

@@ -3,6 +3,7 @@
 #include "Vec2.hpp"
 #include "mat2.hpp"
 #include "rectangle.hpp"
+#include "circle.hpp"
 
 TEST_CASE("testing_constr" , "[Constr]")
 {
@@ -25,6 +26,7 @@ TEST_CASE("testing_constr" , "[Constr]")
     REQUIRE(v4.y == -6.66f);
     
 }
+
 // Aufgabe 2.3
 TEST_CASE("testing_operator+=" , "[operator+=]")
 {
@@ -309,7 +311,7 @@ TEST_CASE("testing_getterRectangle" , "[getterRectanlge]")
     REQUIRE(v4.y == -4.0f);
 }
 
-TEST_CASE ("testing_circumference" , "[circumferenceRect]")
+TEST_CASE ("testing_circumference_Rectangle" , "[circumferenceRect]")
 {
     Rectangle r1;
     Rectangle r2;
@@ -326,8 +328,46 @@ TEST_CASE ("testing_circumference" , "[circumferenceRect]")
     
     u3 = r3.circumference(-0.5f, 2.0f);
     REQUIRE(u3 == 0.0f);
+}
+
+TEST_CASE("testing_CircleGetter" , "[getCircle]")
+{
+    Circle c1(2.5f, 3.5f);
+    Circle c2(4.0f, 2.0f);
+    float a1;
+    float a2;
+    float b1;
+    float b2;
+    
+    a1 = c1.getRadius();
+    REQUIRE(a1 == 2.5f);
+    
+    a2 = c2.getRadius();
+    REQUIRE(a2 == 4.0f);
+    
+    b1 = c1.getCenter();
+    REQUIRE(b1 == 3.5f);
+    
+    b2 = c2.getCenter();
+    REQUIRE(b2 == 2.0f);
+}
+
+TEST_CASE("testing_circumferenceCircle" , "[CircleCircumference]")
+{
+    Circle r1(4.0f, 4.5f);
+    Circle r2(5.0f, 5.5f);
+    float u1;
+    float u2;
+    
+    u1 = r1.circumference(r1.radius);
+    REQUIRE(u1 == Approx(25.1327f));
+    
+    u2 = r2.circumference(r2.radius);
+    REQUIRE(u2 == Approx(31.4159f));
     
 }
+
+
 int main(int argc, char *argv[])
 {
   return Catch::Session().run(argc, argv);
