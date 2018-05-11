@@ -210,27 +210,89 @@ TEST_CASE("testing_Matoperator*" , "[Matoperator*]")
 
 //Aufgabe 2.6
 
-TEST_CASE("testing_operator*" , "[opertor*]")
+TEST_CASE("testing_operatorVec*Mat" , "[opertorVec*Mat]")
 {
+    Vec2 v1;
+    Vec2 v2(5.0f, 5.0f);
+    Mat2 m1;
+    Mat2 m2(1.0f, 2.0f, -1.0f, 4.0f);
     
+    v1 = v2 * m2;
+    REQUIRE(v1.x == 15.0f);
+    REQUIRE(v1.y == 15.0f);
 }
 
-TEST_CASE("testong_opertor*" , "[opertor*]")
+TEST_CASE("testing_opertorMat*Vec" , "[opertorMat*Vec]")
 {
+    Vec2 v1;
+    Vec2 v2(5.0f, 5.0f);
+    Mat2 m1;
+    Mat2 m2(1.0f, 2.0f, -1.0f, 4.0f);
     
+    v1 = m2 * v2;
+    REQUIRE(v1.x == 15.0f);
+    REQUIRE(v1.y == 15.0f);
 }
 
 TEST_CASE("testing_inverse" , "[inverse]")
 {
-
+    Mat2 m1;
+    Mat2 m2(5.0f, 3.0f, 4.5f, 2.0f);
+    Mat2 m3(-1.0f, -4.5f, 5.0f, 0.0f);
+    
+    m1 = inverse(m2);
+    REQUIRE(m1.x1 == Approx(-0.571429f));
+    REQUIRE(m1.x2 == Approx(0.857143f));
+    REQUIRE(m1.y1 == Approx(1.28571f));
+    REQUIRE(m1.y2 == Approx(-1.42857f));
+    
+    m1 = inverse(m3);
+    
+    REQUIRE(m1.x1 == Approx(0.0f));
+    REQUIRE(m1.x2 == Approx(0.2f));
+    REQUIRE(m1.y1 == Approx(-0.222222f));
+    REQUIRE(m1.y2 == Approx(-0.04444f));
 }
 
-//Aufgabe 2.8
-/*
-TEST_CASE("testing_getMax_" , "[getMax_]")
+TEST_CASE("testing_transponse" , "[transponse]")
 {
-    REQUIRE(getMax_(5.0f) == 5.0f);
-}*/
+    Mat2 m1;
+    Mat2 m2(5.0f, 3.0f, 4.5f, 2.0f);
+    Mat2 m3(-1.0f, -4.5f, 5.0f, 0.0f);
+    
+    m1 = transponse(m2);
+    REQUIRE(m1.x1 == 5.0f);
+    REQUIRE(m1.x2 == 2.0f);
+    REQUIRE(m1.y1 == 4.5f);
+    REQUIRE(m1.y2 == 3.0f);
+    
+    m1 = transponse(m3);
+    REQUIRE(m1.x1 == -1.0f);
+    REQUIRE(m1.x2 == 0.0f);
+    REQUIRE(m1.y1 == 5.0f);
+    REQUIRE(m1.y2 == -4.5f);
+}
+
+TEST_CASE("testing_make_rotation_mat2" , "[make_rotation_mat2]")
+{
+    float phi1 = 2 * M_PI;
+    float phi2 = M_PI;
+    Mat2 rotation;
+    
+    rotation = make_rotation_mat2(phi1);
+    REQUIRE(rotation.x1 == Approx(-0.28369f));
+    REQUIRE(rotation.x2 == Approx(-0.958916f));
+    REQUIRE(rotation.y1 == Approx(0.958916f));
+    REQUIRE(rotation.y2 == Approx(-0.28369f));
+   
+    rotation = make_rotation_mat2(phi2);
+    REQUIRE(rotation.x1 == Approx(-0.59846f));
+    REQUIRE(rotation.x2 == Approx(0.801153f));
+    REQUIRE(rotation.y1 == Approx(-0.80115f));
+    REQUIRE(rotation.y2 == Approx(-0.59846f));
+}
+//Aufgabe 2.8
+
 int main(int argc, char *argv[])
 {
   return Catch::Session().run(argc, argv);

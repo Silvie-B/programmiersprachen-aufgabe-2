@@ -35,49 +35,49 @@ Vec2& Vec2::operator*=(float s)
 
 Vec2& Vec2::operator/=(float s)
 {
-        x /= s;
-        y /= s;
+    x /= s;
+    y /= s;
     
     return *this;
 }
 
 Vec2 operator+(Vec2 const& u, Vec2 const& v)
 {
-    Vec2 *a = new Vec2();
-    a->x += u.x + v.x;
-    a->y += u.y + v.y;
-    return *a;
+    Vec2 a;
+    a.x += u.x + v.x;
+    a.y += u.y + v.y;
+    return a;
    
 }
 
 Vec2 operator-(Vec2 const& u, Vec2 const& v)
 {
-    Vec2 *a = new Vec2();
-    a->x -= u.x + v.x;
-    a->y -= u.y + v.y;
-    return *a;
+    Vec2 a;
+    a.x -= u.x + v.x;
+    a.y -= u.y + v.y;
+    return a;
 }
 
 Vec2 operator*(Vec2 const& v, float s)
 {
-    Vec2 *a = new Vec2();
-    a->x *= s * v.x;
-    a->y *= s * v.y;
-    return *a;
+    Vec2 a;
+    a.x *= s * v.x;
+    a.y *= s * v.y;
+    return a;
 }
 
 Vec2 operator/(Vec2 const& v, float s)
 {
-    Vec2 *a = new Vec2();
-    a->x /= s / v.x;
-    a->y /= s / v.x;
-    return *a;
+    Vec2 a;
+    a.x /= s / v.x;
+    a.y /= s / v.x;
+    return a;
 }
 
 Vec2 operator*(float s, Vec2 const& v)
 {
-    Vec2 *a = new Vec2();
-    a->x *= s * v.x;
-    a->y *= s * v.y;
-    return *a;
+    Vec2 a;
+    a.x *= s * v.x;
+    a.y *= s * v.y;
+    return a;
 }
