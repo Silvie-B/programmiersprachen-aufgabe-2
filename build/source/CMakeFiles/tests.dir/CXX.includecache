@@ -247,6 +247,8 @@ circle.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.hpp
 color.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
+window.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
 cmath
 -
 
@@ -299,8 +301,6 @@ mat2.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.hpp
 rectangle.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.hpp
-circle.hpp
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.hpp
 
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
 utility

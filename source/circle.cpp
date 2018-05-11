@@ -1,6 +1,7 @@
 #define _USE_MATH_DEFINES
 #include "circle.hpp"
 #include "color.hpp"
+#include "window.hpp"
 #include <cmath>
 
 Circle::Circle():
@@ -27,7 +28,7 @@ float Circle::circumference(float const& radius)
 {
     return radius * M_PI * 2;
 }
-/*
+
 void Circle::draw(Window window)
 {
     
@@ -37,4 +38,4 @@ void Circle::draw(Window window, Color color)
 {
     
 }
-*/
+

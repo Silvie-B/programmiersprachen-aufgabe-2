@@ -3,7 +3,6 @@
 #include "Vec2.hpp"
 #include "mat2.hpp"
 #include "rectangle.hpp"
-#include "circle.hpp"
 
 TEST_CASE("testing_constr" , "[Constr]")
 {
@@ -293,6 +292,42 @@ TEST_CASE("testing_make_rotation_mat2" , "[make_rotation_mat2]")
 }
 //Aufgabe 2.8
 
+TEST_CASE("testing_getterRectangle" , "[getterRectanlge]")
+{
+    Vec2 v1(5.0f, 3.0f);
+    Vec2 v2(2.5f, -4.0f);
+    Rectangle r1(v1, v2);
+    Vec2 v3;
+    Vec2 v4;
+    
+    v3 = r1.getMax_();
+    REQUIRE(v3.x == 5.0f);
+    REQUIRE(v3.y == 3.0f);
+ 
+    v4 = r1.getMin_();
+    REQUIRE(v4.x == 2.5f);
+    REQUIRE(v4.y == -4.0f);
+}
+
+TEST_CASE ("testing_circumference" , "[circumferenceRect]")
+{
+    Rectangle r1;
+    Rectangle r2;
+    Rectangle r3;
+    float u1;
+    float u2;
+    float u3;
+    
+    u1 = r1.circumference(5.0f, 5.0f);
+    REQUIRE(u1 == 20.0f);
+    
+    u2 = r2.circumference(3.0f, 1.0f);
+    REQUIRE(u2 == 8.0f);
+    
+    u3 = r3.circumference(-0.5f, 2.0f);
+    REQUIRE(u3 == 0.0f);
+    
+}
 int main(int argc, char *argv[])
 {
   return Catch::Session().run(argc, argv);
