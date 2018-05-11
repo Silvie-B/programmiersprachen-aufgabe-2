@@ -311,25 +311,6 @@ TEST_CASE("testing_getterRectangle" , "[getterRectanlge]")
     REQUIRE(v4.y == -4.0f);
 }
 
-TEST_CASE ("testing_circumference_Rectangle" , "[circumferenceRect]")
-{
-    Rectangle r1;
-    Rectangle r2;
-    Rectangle r3;
-    float u1;
-    float u2;
-    float u3;
-    
-    u1 = r1.circumference(5.0f, 5.0f);
-    REQUIRE(u1 == 20.0f);
-    
-    u2 = r2.circumference(3.0f, 1.0f);
-    REQUIRE(u2 == 8.0f);
-    
-    u3 = r3.circumference(-0.5f, 2.0f);
-    REQUIRE(u3 == 0.0f);
-}
-
 TEST_CASE("testing_CircleGetter" , "[getCircle]")
 {
     Circle c1(2.5f, 3.5f);
@@ -352,6 +333,27 @@ TEST_CASE("testing_CircleGetter" , "[getCircle]")
     REQUIRE(b2 == 2.0f);
 }
 
+//Aufgabe 2.9
+
+TEST_CASE ("testing_circumference_Rectangle" , "[circumferenceRect]")
+{
+    Rectangle r1;
+    Rectangle r2;
+    Rectangle r3;
+    float u1;
+    float u2;
+    float u3;
+    
+    u1 = r1.circumference(5.0f, 5.0f);
+    REQUIRE(u1 == 20.0f);
+    
+    u2 = r2.circumference(3.0f, 1.0f);
+    REQUIRE(u2 == 8.0f);
+    
+    u3 = r3.circumference(-0.5f, 2.0f);
+    REQUIRE(u3 == 0.0f);
+}
+
 TEST_CASE("testing_circumferenceCircle" , "[CircleCircumference]")
 {
     Circle r1(4.0f, 4.5f);
@@ -364,9 +366,7 @@ TEST_CASE("testing_circumferenceCircle" , "[CircleCircumference]")
     
     u2 = r2.circumference(r2.radius);
     REQUIRE(u2 == Approx(31.4159f));
-    
 }
-
 
 int main(int argc, char *argv[])
 {
