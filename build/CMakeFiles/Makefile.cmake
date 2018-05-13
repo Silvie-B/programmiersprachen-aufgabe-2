@@ -71,5 +71,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/nanovg.dir/DependInfo.cmake"
   "external/glfw-3.2.1/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "source/CMakeFiles/tests.dir/DependInfo.cmake"
+  "source/CMakeFiles/clock.dir/DependInfo.cmake"
   "source/CMakeFiles/example.dir/DependInfo.cmake"
   )

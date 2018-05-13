@@ -150,6 +150,19 @@ tests/fast:
 .PHONY : tests/fast
 
 #=============================================================================
+# Target rules for targets named clock
+
+# Build rule for target.
+clock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clock
+.PHONY : clock
+
+# fast build rule for target.
+clock/fast:
+	$(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/build
+.PHONY : clock/fast
+
+#=============================================================================
 # Target rules for targets named example
 
 # Build rule for target.
@@ -200,6 +213,7 @@ help:
 	@echo "... nanovg"
 	@echo "... glfw"
 	@echo "... tests"
+	@echo "... clock"
 	@echo "... example"
 	@echo "... external/nanovg/src/nanovg.o"
 	@echo "... external/nanovg/src/nanovg.i"

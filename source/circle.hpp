@@ -2,21 +2,24 @@
 #define circle_hpp
 #include "window.hpp"
 #include "color.hpp"
+#include "Vec2.hpp"
 
 class Circle{
 public:
     float radius;
-    float center;
+    Vec2 center;
     Color color;
     Circle();
-    Circle(float radius, float center);
-    Circle(float radius, float center, Color color);
+    Circle(float radius, Vec2 center);
+    Circle(float radius, Vec2 center, Color color);
     float getRadius();
-    float getCenter();
-    float circumference(float const& radius);
-    void draw(Window window);
-    void draw(Window window, Color color);
+    Vec2 getCenter();
+    float circumference();
+    void draw(Window const& window) const;
+    void draw(Window const& window, Color const& color) const;
+    bool is_inside(Vec2 const& mouse_pos);
 };
+
 
 
 #endif

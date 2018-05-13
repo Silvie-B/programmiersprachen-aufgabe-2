@@ -9,6 +9,7 @@ source/CMakeFiles/example.dir/glew.c.o: ../source/glew.c
 source/CMakeFiles/example.dir/Vec2.cpp.o: ../source/Vec2.cpp
 source/CMakeFiles/example.dir/Vec2.cpp.o: ../source/Vec2.hpp
 
+source/CMakeFiles/example.dir/circle.cpp.o: ../source/Vec2.hpp
 source/CMakeFiles/example.dir/circle.cpp.o: ../source/circle.cpp
 source/CMakeFiles/example.dir/circle.cpp.o: ../source/circle.hpp
 source/CMakeFiles/example.dir/circle.cpp.o: ../source/color.hpp

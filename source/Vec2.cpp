@@ -28,16 +28,27 @@ Vec2& Vec2::operator-=(Vec2 const& v)
 
 Vec2& Vec2::operator*=(float s)
 {
+    if(s <= 0){
+        x = 0.0f;
+        y = 0.0f;
+    }
+    else{
     x *= s;
     y *= s;
+    }
     return *this;
 }
 
 Vec2& Vec2::operator/=(float s)
 {
+    if(s <= 0){
+        x = 0.0f;
+        y = 0.0f;
+    }
+    else{
     x /= s;
     y /= s;
-    
+    }
     return *this;
 }
 

@@ -273,7 +273,19 @@ TEST_CASE("testing_transponse" , "[transponse]")
     REQUIRE(m1.y1 == 5.0f);
     REQUIRE(m1.y2 == -4.5f);
 }
-
+TEST_CASE("testing_Determinante" , "[det]")
+{
+    Mat2 m2(5.0f, 3.0f, 4.5f, 2.0f);
+    Mat2 m3(-1.0f, -4.5f, 5.0f, 0.0f);
+    float det1;
+    float det2;
+    
+    det1 = det(m2);
+    REQUIRE(det1 == -3.5f);
+    
+    det2 = det(m3);
+    REQUIRE(det2 == 22.5f);
+}
 TEST_CASE("testing_make_rotation_mat2" , "[make_rotation_mat2]")
 {
     float phi1 = 2 * M_PI;
@@ -313,59 +325,121 @@ TEST_CASE("testing_getterRectangle" , "[getterRectanlge]")
 
 TEST_CASE("testing_CircleGetter" , "[getCircle]")
 {
-    Circle c1(2.5f, 3.5f);
-    Circle c2(4.0f, 2.0f);
+    Vec2 center1(2.5f, 2.5f);
+    Vec2 center2(4.0f, 4.0f);
+    Circle c1(3.5f, center1);
+    Circle c2(2.0f, center2);
     float a1;
     float a2;
-    float b1;
-    float b2;
+    Vec2 b1;
+    Vec2 b2;
     
     a1 = c1.getRadius();
-    REQUIRE(a1 == 2.5f);
+    REQUIRE(a1 == 3.5f);
     
     a2 = c2.getRadius();
-    REQUIRE(a2 == 4.0f);
+    REQUIRE(a2 == 2.0f);
     
     b1 = c1.getCenter();
-    REQUIRE(b1 == 3.5f);
+    REQUIRE(b1.x == 2.5f);
+    REQUIRE(b1.y == 2.5f);
     
     b2 = c2.getCenter();
-    REQUIRE(b2 == 2.0f);
+    REQUIRE(b2.x == 4.0f);
+    REQUIRE(b2.y == 4.0f);
 }
 
 //Aufgabe 2.9
 
 TEST_CASE ("testing_circumference_Rectangle" , "[circumferenceRect]")
 {
-    Rectangle r1;
-    Rectangle r2;
-    Rectangle r3;
+    Vec2 v1(5.0f, 5.0f);
+    Vec2 v2(0.0f, 4.0f);
+    Vec2 v3(3.0f, 2.0f);
+    Vec2 v4(-0.5f, 1.0f);
+    Rectangle r1(v1, v2);
+    Rectangle r2(v3, v4);
+    
     float u1;
     float u2;
-    float u3;
     
-    u1 = r1.circumference(5.0f, 5.0f);
-    REQUIRE(u1 == 20.0f);
+    u1 = r1.circumference();
+    REQUIRE(u1 == 12.0f);
     
-    u2 = r2.circumference(3.0f, 1.0f);
-    REQUIRE(u2 == 8.0f);
-    
-    u3 = r3.circumference(-0.5f, 2.0f);
-    REQUIRE(u3 == 0.0f);
+    u2 = r2.circumference();
+    REQUIRE(u2 == 9.0f);
 }
 
 TEST_CASE("testing_circumferenceCircle" , "[CircleCircumference]")
 {
-    Circle r1(4.0f, 4.5f);
-    Circle r2(5.0f, 5.5f);
+    Vec2 center1(4.5f, 4.5f);
+    Vec2 center2(5.5f, 5.5f);
+    Circle c1(4.0f, center1);
+    Circle c2(5.0f, center2);
     float u1;
     float u2;
     
-    u1 = r1.circumference(r1.radius);
+    u1 = c1.circumference();
     REQUIRE(u1 == Approx(25.1327f));
     
-    u2 = r2.circumference(r2.radius);
+    u2 = c2.circumference();
     REQUIRE(u2 == Approx(31.4159f));
+}
+
+TEST_CASE("testing_isInsideRectangle" , "[RectangleInside]")
+{
+    Vec2 v1(5.0f, 5.0f);
+    Vec2 v2(0.0f, 4.0f);
+    Vec2 v3(3.0f, 2.0f);
+    Vec2 v4(-0.5f, 1.0f);
+    Vec2 v5(6.6f, 6.6f);
+    Vec2 v6(2.2f,2.2f);
+    Rectangle r1(v1, v2);
+    Rectangle r2(v3, v4);
+    Rectangle r3(v5, v6);
+    Vec2 pos1(2.5f, 4.5f);
+    Vec2 pos2(5.0f, 5.0f);
+    Vec2 pos3(2.2f, 2.2f);
+    bool inside1;
+    bool inside2;
+    bool inside3;
+    
+    inside1 = r1.is_inside(pos1);
+    REQUIRE(inside1 == true);
+    
+    inside2 = r2.is_inside(pos2);
+    REQUIRE(inside2 == false);
+    
+    inside3 = r3.is_inside(pos3);
+    REQUIRE(inside3 == true);
+    
+}
+
+TEST_CASE("testing_isInsideCircle" , "[CircleInside]")
+{
+    Vec2 center1(4.5f, 4.5f);
+    Vec2 center2(5.5f, 5.5f);
+    Vec2 center(0.0f, 0.0f);
+    Circle c1(4.0f, center1);
+    Circle c2(5.0f, center2);
+    Circle c3(20.0f, center);
+    Vec2 pos1(5.0f, 5.0f);
+    Vec2 pos2(20.0f, 20.0f);
+    Vec2 pos3(0.0f, 20.0f);
+    bool inside1;
+    bool inside2;
+    bool inside3;
+    
+    inside1 = c1.is_inside(pos1);
+    REQUIRE(inside1 == true);
+    
+    inside2 = c2.is_inside(pos2);
+    REQUIRE(inside2 == false);
+
+    //Genau auf Kreis
+    inside3 = c3.is_inside(pos3);
+    REQUIRE(inside3 == true);
+    
 }
 
 int main(int argc, char *argv[])

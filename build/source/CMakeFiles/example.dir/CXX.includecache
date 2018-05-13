@@ -113,6 +113,8 @@ window.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.hpp
 color.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
+Vec2.hpp
+/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.hpp
 
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.cpp
 color.hpp
@@ -128,6 +130,8 @@ GLFW/glfw3.h
 utility
 -
 cmath
+-
+vector
 -
 rectangle.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.hpp
@@ -149,8 +153,6 @@ Vec2.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.cpp
 rectangle.hpp
 /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.hpp
-color.hpp
-/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.hpp
 cmath
 -
 

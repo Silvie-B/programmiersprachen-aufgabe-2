@@ -16,12 +16,12 @@ y2(y2) {}
 
 Mat2& Mat2::operator*=(Mat2 const& m)
 {
-    Mat2 *m2 = new Mat2(x1, x2, y1, y2);
+    Mat2 m2(x1, x2, y1, y2);
     
-    x1 = m2->x1 * m.x1 + m2->x2 * m.y1;
-    x2 = m2->x1 * m.x2 + m2->x2 * m.y2;
-    y1 = m2->y1 * m.x1 + m2->y2 * m.y1;
-    y2 = m2->y1 * m.x2 + m2->y2 * m.y2;
+    x1 = m2.x1 * m.x1 + m2.x2 * m.y1;
+    x2 = m2.x1 * m.x2 + m2.x2 * m.y2;
+    y1 = m2.y1 * m.x1 + m2.y2 * m.y1;
+    y2 = m2.y1 * m.x2 + m2.y2 * m.y2;
     
     return *this;
 }

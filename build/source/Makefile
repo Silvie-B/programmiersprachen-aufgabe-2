@@ -126,6 +126,21 @@ tests/fast:
 .PHONY : tests/fast
 
 # Convenience name for target.
+source/CMakeFiles/clock.dir/rule:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/clock.dir/rule
+.PHONY : source/CMakeFiles/clock.dir/rule
+
+# Convenience name for target.
+clock: source/CMakeFiles/clock.dir/rule
+
+.PHONY : clock
+
+# fast build rule for target.
+clock/fast:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/build
+.PHONY : clock/fast
+
+# Convenience name for target.
 source/CMakeFiles/example.dir/rule:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/example.dir/rule
 .PHONY : source/CMakeFiles/example.dir/rule
@@ -147,6 +162,7 @@ Vec2.o: Vec2.cpp.o
 # target to build an object file
 Vec2.cpp.o:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/Vec2.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/Vec2.cpp.o
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/Vec2.cpp.o
 .PHONY : Vec2.cpp.o
 
@@ -157,6 +173,7 @@ Vec2.i: Vec2.cpp.i
 # target to preprocess a source file
 Vec2.cpp.i:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/Vec2.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/Vec2.cpp.i
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/Vec2.cpp.i
 .PHONY : Vec2.cpp.i
 
@@ -167,6 +184,7 @@ Vec2.s: Vec2.cpp.s
 # target to generate assembly for a file
 Vec2.cpp.s:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/Vec2.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/Vec2.cpp.s
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/Vec2.cpp.s
 .PHONY : Vec2.cpp.s
 
@@ -177,6 +195,7 @@ circle.o: circle.cpp.o
 # target to build an object file
 circle.cpp.o:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/circle.cpp.o
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.o
 .PHONY : circle.cpp.o
 
@@ -187,6 +206,7 @@ circle.i: circle.cpp.i
 # target to preprocess a source file
 circle.cpp.i:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/circle.cpp.i
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.i
 .PHONY : circle.cpp.i
 
@@ -197,8 +217,36 @@ circle.s: circle.cpp.s
 # target to generate assembly for a file
 circle.cpp.s:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/circle.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/circle.cpp.s
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/circle.cpp.s
 .PHONY : circle.cpp.s
+
+clock.o: clock.cpp.o
+
+.PHONY : clock.o
+
+# target to build an object file
+clock.cpp.o:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/clock.cpp.o
+.PHONY : clock.cpp.o
+
+clock.i: clock.cpp.i
+
+.PHONY : clock.i
+
+# target to preprocess a source file
+clock.cpp.i:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/clock.cpp.i
+.PHONY : clock.cpp.i
+
+clock.s: clock.cpp.s
+
+.PHONY : clock.s
+
+# target to generate assembly for a file
+clock.cpp.s:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/clock.cpp.s
+.PHONY : clock.cpp.s
 
 color.o: color.cpp.o
 
@@ -207,6 +255,7 @@ color.o: color.cpp.o
 # target to build an object file
 color.cpp.o:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/color.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/color.cpp.o
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/color.cpp.o
 .PHONY : color.cpp.o
 
@@ -217,6 +266,7 @@ color.i: color.cpp.i
 # target to preprocess a source file
 color.cpp.i:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/color.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/color.cpp.i
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/color.cpp.i
 .PHONY : color.cpp.i
 
@@ -227,6 +277,7 @@ color.s: color.cpp.s
 # target to generate assembly for a file
 color.cpp.s:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/color.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/color.cpp.s
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/color.cpp.s
 .PHONY : color.cpp.s
 
@@ -264,6 +315,7 @@ glew.o: glew.c.o
 # target to build an object file
 glew.c.o:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/glew.c.o
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.o
 .PHONY : glew.c.o
 
@@ -274,6 +326,7 @@ glew.i: glew.c.i
 # target to preprocess a source file
 glew.c.i:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/glew.c.i
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.i
 .PHONY : glew.c.i
 
@@ -284,6 +337,7 @@ glew.s: glew.c.s
 # target to generate assembly for a file
 glew.c.s:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/glew.c.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/glew.c.s
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/glew.c.s
 .PHONY : glew.c.s
 
@@ -324,6 +378,7 @@ rectangle.o: rectangle.cpp.o
 # target to build an object file
 rectangle.cpp.o:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/rectangle.cpp.o
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.o
 .PHONY : rectangle.cpp.o
 
@@ -334,6 +389,7 @@ rectangle.i: rectangle.cpp.i
 # target to preprocess a source file
 rectangle.cpp.i:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/rectangle.cpp.i
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.i
 .PHONY : rectangle.cpp.i
 
@@ -344,6 +400,7 @@ rectangle.s: rectangle.cpp.s
 # target to generate assembly for a file
 rectangle.cpp.s:
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/rectangle.cpp.s
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/rectangle.cpp.s
 .PHONY : rectangle.cpp.s
 
@@ -380,6 +437,8 @@ window.o: window.cpp.o
 
 # target to build an object file
 window.cpp.o:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.o
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/window.cpp.o
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.o
 .PHONY : window.cpp.o
 
@@ -389,6 +448,8 @@ window.i: window.cpp.i
 
 # target to preprocess a source file
 window.cpp.i:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.i
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/window.cpp.i
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.i
 .PHONY : window.cpp.i
 
@@ -398,6 +459,8 @@ window.s: window.cpp.s
 
 # target to generate assembly for a file
 window.cpp.s:
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.s
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/clock.dir/build.make source/CMakeFiles/clock.dir/window.cpp.s
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build && $(MAKE) -f source/CMakeFiles/example.dir/build.make source/CMakeFiles/example.dir/window.cpp.s
 .PHONY : window.cpp.s
 
@@ -410,6 +473,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... tests"
+	@echo "... clock"
 	@echo "... example"
 	@echo "... Vec2.o"
 	@echo "... Vec2.i"
@@ -417,6 +481,9 @@ help:
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"
+	@echo "... clock.o"
+	@echo "... clock.i"
+	@echo "... clock.s"
 	@echo "... color.o"
 	@echo "... color.i"
 	@echo "... color.s"

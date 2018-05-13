@@ -57,9 +57,22 @@ include source/CMakeFiles/tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include source/CMakeFiles/tests.dir/flags.make
 
+source/CMakeFiles/tests.dir/window.cpp.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/window.cpp.o: ../source/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/tests.dir/window.cpp.o"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/window.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.cpp
+
+source/CMakeFiles/tests.dir/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/window.cpp.i"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.cpp > CMakeFiles/tests.dir/window.cpp.i
+
+source/CMakeFiles/tests.dir/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/window.cpp.s"
+	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/window.cpp -o CMakeFiles/tests.dir/window.cpp.s
+
 source/CMakeFiles/tests.dir/glew.c.o: source/CMakeFiles/tests.dir/flags.make
 source/CMakeFiles/tests.dir/glew.c.o: ../source/glew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object source/CMakeFiles/tests.dir/glew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object source/CMakeFiles/tests.dir/glew.c.o"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tests.dir/glew.c.o   -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/glew.c
 
 source/CMakeFiles/tests.dir/glew.c.i: cmake_force
@@ -72,7 +85,7 @@ source/CMakeFiles/tests.dir/glew.c.s: cmake_force
 
 source/CMakeFiles/tests.dir/tests.cpp.o: source/CMakeFiles/tests.dir/flags.make
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object source/CMakeFiles/tests.dir/tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/tests.dir/tests.cpp.o"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/tests.cpp
 
 source/CMakeFiles/tests.dir/tests.cpp.i: cmake_force
@@ -85,7 +98,7 @@ source/CMakeFiles/tests.dir/tests.cpp.s: cmake_force
 
 source/CMakeFiles/tests.dir/Vec2.cpp.o: source/CMakeFiles/tests.dir/flags.make
 source/CMakeFiles/tests.dir/Vec2.cpp.o: ../source/Vec2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object source/CMakeFiles/tests.dir/Vec2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/tests.dir/Vec2.cpp.o"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/Vec2.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/Vec2.cpp
 
 source/CMakeFiles/tests.dir/Vec2.cpp.i: cmake_force
@@ -98,7 +111,7 @@ source/CMakeFiles/tests.dir/Vec2.cpp.s: cmake_force
 
 source/CMakeFiles/tests.dir/mat2.cpp.o: source/CMakeFiles/tests.dir/flags.make
 source/CMakeFiles/tests.dir/mat2.cpp.o: ../source/mat2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/tests.dir/mat2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/tests.dir/mat2.cpp.o"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/mat2.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/mat2.cpp
 
 source/CMakeFiles/tests.dir/mat2.cpp.i: cmake_force
@@ -111,7 +124,7 @@ source/CMakeFiles/tests.dir/mat2.cpp.s: cmake_force
 
 source/CMakeFiles/tests.dir/rectangle.cpp.o: source/CMakeFiles/tests.dir/flags.make
 source/CMakeFiles/tests.dir/rectangle.cpp.o: ../source/rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object source/CMakeFiles/tests.dir/rectangle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/tests.dir/rectangle.cpp.o"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/rectangle.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/rectangle.cpp
 
 source/CMakeFiles/tests.dir/rectangle.cpp.i: cmake_force
@@ -124,7 +137,7 @@ source/CMakeFiles/tests.dir/rectangle.cpp.s: cmake_force
 
 source/CMakeFiles/tests.dir/circle.cpp.o: source/CMakeFiles/tests.dir/flags.make
 source/CMakeFiles/tests.dir/circle.cpp.o: ../source/circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/tests.dir/circle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/tests.dir/circle.cpp.o"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/circle.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/circle.cpp
 
 source/CMakeFiles/tests.dir/circle.cpp.i: cmake_force
@@ -137,7 +150,7 @@ source/CMakeFiles/tests.dir/circle.cpp.s: cmake_force
 
 source/CMakeFiles/tests.dir/color.cpp.o: source/CMakeFiles/tests.dir/flags.make
 source/CMakeFiles/tests.dir/color.cpp.o: ../source/color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/tests.dir/color.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object source/CMakeFiles/tests.dir/color.cpp.o"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/color.cpp.o -c /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/source/color.cpp
 
 source/CMakeFiles/tests.dir/color.cpp.i: cmake_force
@@ -150,6 +163,7 @@ source/CMakeFiles/tests.dir/color.cpp.s: cmake_force
 
 # Object files for target tests
 tests_OBJECTS = \
+"CMakeFiles/tests.dir/window.cpp.o" \
 "CMakeFiles/tests.dir/glew.c.o" \
 "CMakeFiles/tests.dir/tests.cpp.o" \
 "CMakeFiles/tests.dir/Vec2.cpp.o" \
@@ -161,6 +175,7 @@ tests_OBJECTS = \
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
 
+source/tests: source/CMakeFiles/tests.dir/window.cpp.o
 source/tests: source/CMakeFiles/tests.dir/glew.c.o
 source/tests: source/CMakeFiles/tests.dir/tests.cpp.o
 source/tests: source/CMakeFiles/tests.dir/Vec2.cpp.o
@@ -172,7 +187,7 @@ source/tests: source/CMakeFiles/tests.dir/build.make
 source/tests: external/glfw-3.2.1/src/libglfw3.a
 source/tests: libnanovg.a
 source/tests: source/CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tests"
 	cd /Users/Silvie/desktop/Hausaufgaben/programmiersprachen-aufgabe-2/build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

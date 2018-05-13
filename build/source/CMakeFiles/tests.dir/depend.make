@@ -9,6 +9,7 @@ source/CMakeFiles/tests.dir/glew.c.o: ../source/glew.c
 source/CMakeFiles/tests.dir/Vec2.cpp.o: ../source/Vec2.cpp
 source/CMakeFiles/tests.dir/Vec2.cpp.o: ../source/Vec2.hpp
 
+source/CMakeFiles/tests.dir/circle.cpp.o: ../source/Vec2.hpp
 source/CMakeFiles/tests.dir/circle.cpp.o: ../source/circle.cpp
 source/CMakeFiles/tests.dir/circle.cpp.o: ../source/circle.hpp
 source/CMakeFiles/tests.dir/circle.cpp.o: ../source/color.hpp
@@ -35,4 +36,12 @@ source/CMakeFiles/tests.dir/tests.cpp.o: ../source/mat2.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/rectangle.hpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/tests.cpp
 source/CMakeFiles/tests.dir/tests.cpp.o: ../source/window.hpp
+
+source/CMakeFiles/tests.dir/window.cpp.o: ../external/GL/glew.h
+source/CMakeFiles/tests.dir/window.cpp.o: ../external/GL/glext.h
+source/CMakeFiles/tests.dir/window.cpp.o: ../external/glfw-3.2.1/include/GLFW/glfw3.h
+source/CMakeFiles/tests.dir/window.cpp.o: ../external/nanovg/src/nanovg.h
+source/CMakeFiles/tests.dir/window.cpp.o: ../external/nanovg/src/nanovg_gl.h
+source/CMakeFiles/tests.dir/window.cpp.o: ../source/window.cpp
+source/CMakeFiles/tests.dir/window.cpp.o: ../source/window.hpp
 
